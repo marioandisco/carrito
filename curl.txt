@@ -1,0 +1,14 @@
+curl -X POST -H "Content-Type: application/json" "https://api.mercadopago.com/users/test_user?access_token=TEST-1893221979840508-092814-f63750355fb4208c2ccea52e0eb75507-9237701" -d "{'site_id':'MLA'}"
+
+{"id":667320427,"nickname":"TETE8783719","password":"qatest2498","site_status":" active","email":"test_user_18803910@testuser.com"}      //vendedor
+
+{"id":667326931,"nickname":"TETE3258854","password":"qatest4908","site_status":" active","email":"test_user_16708992@testuser.com"}      //comprador
+
+
+Curl de la pagina
+curl -X POST -H "Content-Type: application/json" -H 'Authorization: Bearer TEST-1893221979840508-092814-f63750355fb4208c2ccea52e0eb75507-9237701' "https://api.mercadopago.com/users/test_user" -d '{"site_id":"MLA"}'     //asi no
+
+curl -X POST -H "Content-Type: application/json" -H 'Authorization: Bearer APP_USR-6317427424180639-042414-47e969706991d3a442922b0702a0da44-469485398' "https://api.mercadopago.com/users/test_user" -d '{"site_id":"MLA"}'        //asi no
+
+
+curl -X POST -H "Content-Type: application/json" "https://api.mercadopago.com/users/test_user?access_token=APP_USR-6317427424180639-042414-47e969706991d3a442922b0702a0da44-469485398" -d "{'site_id':'MLA'}"    /dió error

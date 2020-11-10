@@ -1,0 +1,4 @@
+Al momento de apretar el último boton de confirmación del pago, es necesario no estar loguado en la pagina de Mercado Pago como vendedor.
+En el video, terminó realizando la operación estando logueado como comprador.
+
+Una vez que se confirma el pago, despues de elegir la tarjeta, las cuotas y el email del comprador, MercadoPago muestra una pagina donde informa la confirmación o el rechazo del pago. Esta página sigue estando dentro del ámbito de Mercado Pago. En la misma hay un botón que al apretar nos lleva a una de nuestras back-URL según el pago haya sido exitoso, rechazado o pendiente.

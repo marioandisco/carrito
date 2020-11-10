@@ -1,0 +1,1 @@
+Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.2.0". You are running 5.3.29.
